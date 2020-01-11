@@ -19,7 +19,7 @@ if (isset($_FILES["file"])) {
     // put your url from where you can get the signed url
     $url = "https://thisisurl.com/getSignedkey";
     $data = [
-        'fileName' => "test.png", // set the file name with extension
+        'fileName' => "test.mp3", // set the file name with extension
         'contentType' => "audio/mpeg", // content type must be audio/mpeg for audio, image/png for image, video/mp4 for video
         'path' => "audio/", // give the path where you want to upload
     ];
